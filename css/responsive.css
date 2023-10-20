@@ -1,0 +1,25 @@
+@media screen and (max-width: 793px) {
+    .localizacao,
+    .data,
+    .instagram {
+        transform: scale(0.8);
+    }
+
+    .redes-sociais {
+        margin-top: -25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-direitos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paragrafo-footer {
+        margin-top: -10px!important;
+        font-size: 12px;
+    }
+}
